@@ -17,7 +17,7 @@
 | [BMI160](https://www.amazon.com/Accelerometer-Gyroscope-inertial-Measurement-Sensors/dp/B07VT25PHX/ref=sr_1_1?crid=21RB2BV2WMTZ9&dib=eyJ2IjoiMSJ9.ZcMGEbOziAlWsDIVvtPTZNOFQ1xHVMww2pNwOd2kafk.pKEg9NVhL_18ujxoZMMn_CziFOP-f4w8xGVrMurHQVU&dib_tag=se&keywords=BMI160+1pcs&qid=1791301992&refinements=p_36%3A-400&rnid=386419011&sprefix=bmi160+1pcs%2Caps%2C214&sr=8-1) | IMU Sensor | 1 | $2.82 | $2.82 | [Amazon](https://www.amazon.com/Accelerometer-Gyroscope-inertial-Measurement-Sensors/dp/B07VT25PHX/ref=sr_1_1?crid=21RB2BV2WMTZ9&dib=eyJ2IjoiMSJ9.ZcMGEbOziAlWsDIVvtPTZNOFQ1xHVMww2pNwOd2kafk.pKEg9NVhL_18ujxoZMMn_CziFOP-f4w8xGVrMurHQVU&dib_tag=se&keywords=BMI160+1pcs&qid=1791301992&refinements=p_36%3A-400&rnid=386419011&sprefix=bmi160+1pcs%2Caps%2C214&sr=8-1) |
 | [MINI560](https://www.amazon.com/jojnsha-Mini560-Efficient-Indicators-Protection/dp/B0FF94HLZV/ref=sr_1_4_sspa?crid=ISIX4SVOWNL1&dib=eyJ2IjoiMSJ9.AfYm_aQdwkNWh5bYRrGKz3um4yijA83MuOXMZDQqi7c.OpBSQDiQCWpglqKDpyKoVzJyRvxe_YcMJTIJ3jKoSFw&dib_tag=se&keywords=MINI560&qid=1791302054&refinements=p_36%3A-500&rnid=2421879011&sprefix=mini560%2Caps%2C249&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1) | Battery Protection | 1 | $4.99 | $4.99 | [Amazon](https://www.amazon.com/jojnsha-Mini560-Efficient-Indicators-Protection/dp/B0FF94HLZV/ref=sr_1_4_sspa?crid=ISIX4SVOWNL1&dib=eyJ2IjoiMSJ9.AfYm_aQdwkNWh5bYRrGKz3um4yijA83MuOXMZDQqi7c.OpBSQDiQCWpglqKDpyKoVzJyRvxe_YcMJTIJ3jKoSFw&dib_tag=se&keywords=MINI560&qid=1791302054&refinements=p_36%3A-500&rnid=2421879011&sprefix=mini560%2Caps%2C249&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1) |
 | **Parts subtotal** | — | — | — | **$25.15** | — |
-| **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$25.15** | — |
+| **Tax & shipping** | — | — | — | **$4.00** | — |
+| **Total** | — | — | — | **$29.15** | — |
 
-$4.85 left of the tier's funding.
+$0.85 left of the tier's funding.
