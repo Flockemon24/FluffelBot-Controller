@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 2 | 25h | 3 |
+| Week 1 | Tier 2 | 26h | 3 |
 
 ## Contents
 
@@ -22,7 +22,7 @@
 
 ### 2026-10-06 – In this session, I designed the whole PCB for the motor control. I used some inspiration from other GitHub-Repositories, so I can make sure my PCB will work. After I designed everything in EasyEDA I a
 
-**10h**
+**11h**
 
 In this session, I designed the whole PCB for the motor control. I used some inspiration from other GitHub-Repositories, so I can make sure my PCB will work. After I designed everything in EasyEDA I added all the files to my GitHub and I also added the BoM here at Half a Life. Now I only have to write a README.md and write some code.
 
