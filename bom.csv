@@ -1,0 +1,9 @@
+Part,What it's for,Qty,Unit,Total,Vendor
+ESP32-DEVKITC-32UE,3x Main Controller,1,$16.99,$16.99,Amazon
+TB6612FNG,3x Motor Driver,1,$7.82,$7.82,Amazon
+BMI160,3x IMU Sensor,1,$7.99,$7.99,Amazon
+MINI560,10x Battery Protection,1,$8.99,$8.99,Amazon
+"Li-ion Battery 7.4V 2000mAh",2x Power Supply,1,$21.99,$21.99,Amazon
+Parts subtotal,—,—,—,$63.78,—
+Tax & shipping,—,—,—,$0.00,—
+Total,—,—,—,$63.78,—
