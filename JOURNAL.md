@@ -4,7 +4,7 @@
 <!-- Generated: 2026-10-10T11:38:24.911Z -->
 
 > [!NOTE]
-> This devlog is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file.
+> This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmuw78sol06nf01osyua4v1se). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
 > A simple Motorcontroller with an ESP32 and two TB6612FNG to control four wheels.
 
@@ -26,27 +26,27 @@
 
 In this session, I designed the whole PCB for the motor control. I used some inspiration from other GitHub-Repositories, so I can make sure my PCB will work. After I designed everything in EasyEDA I added all the files to my GitHub and I also added the BoM here at Half a Life. Now I only have to write a README.md and write some code.
 
-![PCB 3d View](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/8be382e367be8dd9586f58f97bb4f28180af7b2844cf420db19d1bbc4afd4b6f.png)
+![PCB 3d View](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/8be382e367be8dd9586f58f97bb4f28180af7b2844cf420db19d1bbc4afd4b6f.png)
 
-![PCB_FluffelBot-Controller](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/69f4cf4343385a5544465ad3d2d29e8a074167fc89fc5515c0dad5b77b608916.png)
+![PCB_FluffelBot-Controller](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/69f4cf4343385a5544465ad3d2d29e8a074167fc89fc5515c0dad5b77b608916.png)
 
-![SCH_PCB_FluffelBot-Controller](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/3c29c09232b79185c84a3f99facab64b69de45e02428080040e8820588d42e5f.png)
+![SCH_PCB_FluffelBot-Controller](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/3c29c09232b79185c84a3f99facab64b69de45e02428080040e8820588d42e5f.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/26fa46a25f4ae7635a08c9194231fa65fdaaabe305253f70046953aa5633378f.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/26fa46a25f4ae7635a08c9194231fa65fdaaabe305253f70046953aa5633378f.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/501cebac53269d9aa2dbcfd8e3c7a6a08ce09641cdec3d8ce783544e95e3c0b5.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/501cebac53269d9aa2dbcfd8e3c7a6a08ce09641cdec3d8ce783544e95e3c0b5.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/5f05ffca41456632162f45e9fd4c0e2fbc79b962ec9048aefffc6e859e75c881.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/5f05ffca41456632162f45e9fd4c0e2fbc79b962ec9048aefffc6e859e75c881.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/2eab2d0c32d52d67b41f787d18c7f48231d84ed2cb8c2171586c53df4b8f8a81.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/2eab2d0c32d52d67b41f787d18c7f48231d84ed2cb8c2171586c53df4b8f8a81.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/ecfc228c3bfc0da06337cd4caee2bb301a8eeba8fbf2295e5ab7654d58a8d3d3.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/ecfc228c3bfc0da06337cd4caee2bb301a8eeba8fbf2295e5ab7654d58a8d3d3.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/8efbf40f5f9468cf7160ea34b3ab8724a8d74eb67c3ff5f5fcb1fbb526a93c02.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/8efbf40f5f9468cf7160ea34b3ab8724a8d74eb67c3ff5f5fcb1fbb526a93c02.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/118736ca5e11ef75d6ff05609f05976c90ec34ff9a56dddf50d1409604cef4c6.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/118736ca5e11ef75d6ff05609f05976c90ec34ff9a56dddf50d1409604cef4c6.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/a5b05c7a2fb95d4e74e63c1d0434c6aa0cc7db5d9dda5e9d10e6c7dc7c901149.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/a5b05c7a2fb95d4e74e63c1d0434c6aa0cc7db5d9dda5e9d10e6c7dc7c901149.png)
 
 ### 2026-10-10 – In this session, I programmed the firmware for the ESP32 so that it can really control the motor drivers. It took a long time to initialize PlatformIO in Visual Studio Code but after three hours it fi
 
@@ -54,23 +54,23 @@ In this session, I designed the whole PCB for the motor control. I used some ins
 
 In this session, I programmed the firmware for the ESP32 so that it can really control the motor drivers. It took a long time to initialize PlatformIO in Visual Studio Code but after three hours it finally worked. Then I restructured the project structure and added everything to GitHub.
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/3053918f10fefcedf25b9f0d7abcb0102db9b71e6943538f07f8217fa6c5ffe4.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/3053918f10fefcedf25b9f0d7abcb0102db9b71e6943538f07f8217fa6c5ffe4.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/f1be4c13051c4ce4a4b019a08406645489e0b27e0d1d7d6599b799d8d35f60f5.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/f1be4c13051c4ce4a4b019a08406645489e0b27e0d1d7d6599b799d8d35f60f5.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/33d95941679af29b9a086e2ed3ba6d4e6eed0d0db2052f96c158523a235a51d4.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/33d95941679af29b9a086e2ed3ba6d4e6eed0d0db2052f96c158523a235a51d4.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/dcf4c2d7846a03bf9543aef06e21b7dbf96fc4af375111ab03b01fa89e05166c.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/dcf4c2d7846a03bf9543aef06e21b7dbf96fc4af375111ab03b01fa89e05166c.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/a4ab74861ef2c6dcbc4f15dbb1f87354f486c1abbd966f2361273775fbebe70a.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/a4ab74861ef2c6dcbc4f15dbb1f87354f486c1abbd966f2361273775fbebe70a.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/fb846f9eb863f987f3c72d29caef836b2da2a7f3c4d3d4d075f64e06d59fafc9.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/fb846f9eb863f987f3c72d29caef836b2da2a7f3c4d3d4d075f64e06d59fafc9.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/45f5d419306b8763141c655352e1232c932ab9d42b4d15c7c517596f1ae26c30.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/45f5d419306b8763141c655352e1232c932ab9d42b4d15c7c517596f1ae26c30.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/35400ffd36335f1308404040962175df2d0e0a3602e341f9ab0c260a26568fcc.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/35400ffd36335f1308404040962175df2d0e0a3602e341f9ab0c260a26568fcc.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/5544e61f18357d8fd5fb4609be76a126bcce3c6746c759f00fd0acb52cb11ed8.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/5544e61f18357d8fd5fb4609be76a126bcce3c6746c759f00fd0acb52cb11ed8.png)
 
 ### 2026-10-10 – In this session, I looked for the items I need to build the PCB. I found everything on Amazon.com and linked the things at 'Half a Life'. Because I was fist over the funding limit, I chose the higher
 
@@ -78,16 +78,16 @@ In this session, I programmed the firmware for the ESP32 so that it can really c
 
 In this session, I looked for the items I need to build the PCB. I found everything on Amazon.com and linked the things at 'Half a Life'. Because I was fist over the funding limit, I chose the higher limit. Shipping on Amazon.com is free.
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/9bea927025e13c345201ba509e54ceaf4898e1e157d4d69070589f46be86dbae.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/9bea927025e13c345201ba509e54ceaf4898e1e157d4d69070589f46be86dbae.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/cf8405372c8b6aefe248812e9cb6d3de9394833c15ad4ab3ea314804fce752c4.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/cf8405372c8b6aefe248812e9cb6d3de9394833c15ad4ab3ea314804fce752c4.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/50c3355bdaa931c3a3db9a0bcff09b761e3c0a0f2390914a6700f1707f9dcd6c.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/50c3355bdaa931c3a3db9a0bcff09b761e3c0a0f2390914a6700f1707f9dcd6c.png)
 
-![Cart-Amazon-FluffelBot-Controller](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/9bea927025e13c345201ba509e54ceaf4898e1e157d4d69070589f46be86dbae.png)
+![Cart-Amazon-FluffelBot-Controller](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/9bea927025e13c345201ba509e54ceaf4898e1e157d4d69070589f46be86dbae.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/2b503101e91d669224ba54012b3d5e0477ad72981f6891198f0695c223f2a512.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/2b503101e91d669224ba54012b3d5e0477ad72981f6891198f0695c223f2a512.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/46766983a8147ebde21b176365fecdcdc16f952f46861c79d1e381e5cb3bdaa0.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/46766983a8147ebde21b176365fecdcdc16f952f46861c79d1e381e5cb3bdaa0.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/471183037678f2d48d19b20759fbaab4939506998f745932bb36ad4182d6c6d1.png)
+![image](https://halflife.hackclub-assets.com/sessions/4fbHVD2HJmUknZX98YuazYMMhIgWKpgb/471183037678f2d48d19b20759fbaab4939506998f745932bb36ad4182d6c6d1.png)
