@@ -27,7 +27,7 @@ For power supply use a 12V-Battery. The controller has a built-in battery protec
 | **Tax & shipping** | — | — | — | **$4.00** | — |
 | **Total** | — | — | — | **$29.15** | — |
 
-Also see the BOM.md file!
+Please visit ```BOM.csv``` for the whole item list. 
 
 ## LICENCE
 This Project is completely open-source. Feel free to rebuild everything in here.
