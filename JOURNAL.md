@@ -10,9 +10,9 @@ total_time: "29h"
 
 > A simple Motorcontroller with an ESP32 and two TB6612FNG to control four wheels.
 
-| Week | Tier | Hours logged | Entries |
-| --- | --- | --- | --- |
-| Week 1 | Tier 3 | 26h | 3 |
+| Tier | Hours logged | Entries |
+| --- | --- | --- |
+| Tier 3 | 29h | 4 |
 
 ## Contents
 
