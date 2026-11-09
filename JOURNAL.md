@@ -16,9 +16,10 @@ total_time: "29h"
 
 ## Contents
 
-1. [2026-10-06 – I designed the PCB](#-October-6,-2026:-I-designed-the-PCB)
-2. [2026-10-10 – I programmed the firmware for the ESP32](#-October-10,-2026:-I-programmed-the-firmware-for-the-ESP32)
-3. [2026-10-10 – Looked up items I need on Amazon.com](#-October-10,-2026-(entry-2):-Looked-up-items-I-need-on-Amazon.com)
+1. [2026-10-06 – I designed the PCB](#-October-6,-2026:-October-6,-2026---I-designed-the-PCB)
+2. [2026-10-10 – I programmed the firmware for the ESP32](#-October-10,-2026:-October-10,-2026---I-programmed-the-firmware-for-the-ESP32)
+3. [2026-10-10 – Looked up items I need on Amazon.com](#-October-10,-2026-(entry-2):-October-10,-2026---Looked-up-items-I-need-on-Amazon.com)
+4. [2026-10-10 – Looked up items I need on Amazon.com](#-November-9,-2026:-November-9,-2026---Fixed-few-problems-before-review)
 
 ## Design
 
