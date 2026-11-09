@@ -3,7 +3,7 @@ title: "FluffelBot Controller"
 github: "https://github.com/Flockemon24/FluffelBot-Controller"
 description: "Motor controller for the FluffelBot. Can control up to four motors independently. "
 created_at: "2026-11-01"
-total_time: "26h"
+total_time: "29h"
 ---
 
 # FluffelBot-Controller – devlog
@@ -22,10 +22,17 @@ total_time: "26h"
 
 ## Design
 
-# October 6, 2026: I designed the PCB
+# October 6, 2026: October 6, 2026 - I designed the PCB
 <!-- fabricate:entry 1789 -->
 
-In this session, I designed the whole PCB for the motor control. I used some inspiration from other GitHub-Repositories, so I can make sure my PCB will work. After I designed everything in EasyEDA I added all the files to my GitHub and I also added the BoM here at Half a Life. Now I only have to write a README.md and write some code.
+In this session, I designed the whole PCB for the motor control. I used some inspiration from other GitHub-Repositories, so I can make sure my PCB will work. After I designed everything in EasyEDA I added all the files to my GitHub. 
+
+The project uses two simple dual motor drivers (TB6612FNGs) to control four motors independently and also includes a IMU sensor (the BMI160) to know where it is (rotation/speed) as well as a battery protection with fuses.
+
+For a overview of the project, i first wrote a presentation (or sth like that ;-)) and then used EasyEDA for routing the things.
+Because the ESP32 has other free pins, I thought it would be nice to dont waste them, so I added plugs to the PCB, so its possible to use those pins I didnt use for motor control too.
+
+Next steps to do are writing the firmware and a BOM.
 
 ![PCB 3d View](https://fabricate.hackclub-assets.com/8be382e367be8dd9586f58f97bb4f28180af7b2844cf420db19d1bbc4afd4b6f/image-png/8be382e367be8dd9586f58f97bb4f28180af7b2844cf420db19d1bbc4afd4b6f.png)
 
@@ -51,10 +58,17 @@ In this session, I designed the whole PCB for the motor control. I used some ins
 
 **Total time spent: 11h**
 
-# October 10, 2026: I programmed the firmware for the ESP32
+# October 10, 2026: October 10, 2026 - I programmed the firmware for the ESP32
 <!-- fabricate:entry 1790 -->
 
 In this session, I programmed the firmware for the ESP32 so that it can really control the motor drivers. It took a long time to initialize PlatformIO in Visual Studio Code but after three hours it finally worked. Then I restructured the project structure and added everything to GitHub.
+
+The code is very simple:
+It uses the `ledc.h` library from the *Arduino Library Manager.*
+There are two self-programmed functions, `setMotor` and `stopAll`, to (obviously) set the motors to a specific speed, and to stop them all.
+
+The example code initializes the motors first and then let them start.
+
 
 ![image](https://fabricate.hackclub-assets.com/3053918f10fefcedf25b9f0d7abcb0102db9b71e6943538f07f8217fa6c5ffe4/image-png/3053918f10fefcedf25b9f0d7abcb0102db9b71e6943538f07f8217fa6c5ffe4.png)
 
@@ -76,10 +90,19 @@ In this session, I programmed the firmware for the ESP32 so that it can really c
 
 **Total time spent: 9h**
 
-# October 10, 2026 (entry 2): Looked up items I need on Amazon.com
+# October 10, 2026 (entry 2): October 10, 2026 - Looked up items I need on Amazon.com
 <!-- fabricate:entry 1791 -->
 
 In this session, I looked for the items I need to build the PCB. I found everything on Amazon.com and linked the things. Because I was fist over the funding limit, I chose the higher limit. Shipping on Amazon.com is free.
+I choose those links because they are much cheaper when you buy them as a pack of more then one part. Thats why I have like 3 IMUs, 10 MINI560 and even more fuses. 
+I need the following parts:
+- **ESP32**
+- **2x TBFN6612FNG** (Motor driver)
+- **BMI160** (IM-Unit)
+- **LiPo Pack for Power Supply**
+- a few Pin **Headers** and **Plugs**
+
+---
 
 ![image](https://fabricate.hackclub-assets.com/9bea927025e13c345201ba509e54ceaf4898e1e157d4d69070589f46be86dbae/image-png/9bea927025e13c345201ba509e54ceaf4898e1e157d4d69070589f46be86dbae.png)
 
@@ -95,4 +118,19 @@ In this session, I looked for the items I need to build the PCB. I found everyth
 
 ![image](https://fabricate.hackclub-assets.com/471183037678f2d48d19b20759fbaab4939506998f745932bb36ad4182d6c6d1/image-png/471183037678f2d48d19b20759fbaab4939506998f745932bb36ad4182d6c6d1.png)
 
-**Total time spent: 6h**
+![Shopping-Cart](https://fabricate.hackclub-assets.com/0d00333885bec6610034f0f0bfa84ab788d94d02efce4b0467c27bebcc74c20a/image-png/Screenshot%202026-10-24%20172434.png)
+
+**Total time spent: 8h**
+
+# November 9, 2026: November 9, 2026 - Fixed few problems before review
+<!-- fabricate:entry 2507 -->
+
+I fixed the problems before I can review again:
+- I wrote longer texts to every journal entry so the time I have logged is justified.
+- I edited the `BOM.csv`. Now I only linked 1 ESP32 and not 10 MINI560 however the other parts are much, much cheaper when you buy it as a pack.
+
+![MINI560](https://fabricate.hackclub-assets.com/218c95ffc34d400fc9183d917bd80f01b53a2a4761ca26726f45dff65bea75ca/image-png/image.png)
+
+![](https://fabricate.hackclub-assets.com/8adb31addb3a88ba1e72ab571e22bced3106299794986bf9cc1b0d8ac63b4457/image-png/Cart-Amazon-FluffelBot-Controller-v3.png)
+
+**Total time spent: 1h**
